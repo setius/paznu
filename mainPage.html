@@ -1,31 +1,45 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="css/styleSheet.css">
- <script src="js/mainScript.js"></script>
 </head>
 
 <body>
-
-  <div class="imgcontainer">
-    <div class="pageTitle"> Smart Dom</div>
-  </div>
-
-  <div class="container">
-  
-  <div class="loginContainer">
-    <label for="uname"><div class="label">Login:</div></label>
-    <input class="input" type="text" placeholder="Login" name="uname" required>
-  </div>
-  <div class="loginContainer">
-    <label for="psw"><div class="label">Hasło:</div></label>
-    <input class="input" type="password" placeholder="Hasło" name="psw" required>
-  </div>
-	<div class="buttonContainer">
-	  <button type="button" class="firstButton" id="loginButton">Rejestracja</button>
-	  <button type="button" class="secondButton"id="registerButton">Logowanie</button>
+  <div class="mainContainer">
+	<div class="mainPanel">
+      <div class="tabBar"> 
+	    <div class="panelLabel"> Kuchnia </div>
+		<div class="icon"></div>
+		<div class="iconLabel"> 25C </div>
+		<div id="ovenIcon" class="ovenIcon"></div>
+		<div id="lightIcon" class="lightIcon"></div>
+      </div>
+	  
+	  <div class="panelElement"> 
+		<div class="panelIcon"></div>
+		<div class="panelIconLabel"> Żarówka </div>
+		<div class="slide">
+		  <label class="switch">
+			<input type="checkbox" id="deviceCheckbox1" class="checkbox">
+			<span class="slider round"></span>
+		  </label>
+		</div>
+      </div>
+	  
+	  <div class="panelElement"> 
+		<div class="panelIcon"></div>
+		<div class="panelIconLabel"> Żarówka </div>
+		<div class="slide">
+		  <label class="switch">
+			<input type="checkbox" id="deviceCheckbox2" class="checkbox">
+			<span class="slider round"></span>
+		  </label>
+		</div>
+      </div>
+	  
 	</div>
-	
   </div>
+
+ 
 
 
 </body>
